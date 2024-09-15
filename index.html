@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <container class="top-surface">
+            <div class="nav">
+                <div class="logo"><a href="#">moon</a></div>
+                <div class="searchbox">
+                    <div id="searchbox2">
+                  <img src="/images/moon_2691235.png" id="google">
+                  <input type="text" placeholder="Enter you want to search.....">
+                  <img src="/images/search (1).png" class="mic">
+                  
+                   </div>
+               </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Space</a></li>
+                    <li><a href="#">Planets</a></li>
+                </ul>
+            </div>
+           
+            <div class="img-box">
+                <!-- <img class="moon" src="/images/moon3.jpg"> -->
+                <!-- <img class="stars" src="/images/𝗕𝗟𝗢𝗢𝗗 𝗧𝗜𝗘 _ Corte de Espinhos e Rosas ¹.gif"> -->
+                <div class="main-c1">
+                    <p class="pa">Life in Space</p>
+                  </div>
+                <img src="/images/surface.png">
+            </div>
+          </container>
+    </header>
+
+
+     <main class="main">
+         <container class="mid-surface">
+            <p>"No nation which expects to be the leader of other nations can expect to stay behind in this race for space. We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."</p>
+
+            <div class="floating-rocks front-one rellax" data-rellax-speed="8">
+              <img src="/images/rock1.png" width="100">
+            </div>
+      
+            <p>"10, 9, ignition sequence start, 6, 5, 4, 3, 2, 1, zero. All engines running. Liftoff! We have a liftoff!"</p>
+      
+            <div class="floating-rocks back-one  rellax" data-rellax-speed="-2"> 
+              <img src="/images/rock3.png">
+            </div>
+      
+            <p>"Houston, Tranquility Base here. The Eagle has landed."</p>
+      
+            <div class="floating-rocks front-two  rellax" data-rellax-speed="3">
+              <img src="images/rock2.png">
+            </div>
+      
+            <p>"Here we first set foot upon the Moon. July 1969 AD. We came in peace for all mankind."</p>
+      
+            <div class="floating-rocks back-two  rellax" data-rellax-speed="-3">
+              <img src="images/rock4.png">
+            </div>
+      
+            <p>"This is the LM pilot. I'd like to take this opportunity to ask every person listening in, whoever and wherever they may be, to pause for a moment and contemplate the events of the past few hours and to give thanks in his or her own way."</p>
+      
+            <div class="floating-rocks planet-earth  rellax" data-rellax-speed="-4">
+              <img src="images/earth.png" width="100">
+            </div>
+      
+            <p>"That's one small step for man, a giant leap for mankind."</p>
+         </container>
+    </main>
+    <footer>
+        <h1 class="heading rellax" data-rellax-speed="-2">MOON ROCKS</h1>
+        <div class="moon-surf rellax" data-rellax-speed="5">
+            <img src="/images/moon2.jpg" width="100">
+        </div>
+    </footer>
+    <script src="/index.js">
+
+    </script>
+    <script>
+        var rellax = new Rellax('.rellax',{
+            center:true
+        });
+
+
+        var searchbox2 = document.getElementById("searchbox2");
+        var google =document.getElementById("google");
+
+        google.onclick = function(){
+            searchbox2.classList.toggle("active");
+        }
+    </script>
+</body> 
+</html>
